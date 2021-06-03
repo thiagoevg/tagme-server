@@ -10,7 +10,8 @@ const salt_rounds = 10;
 
 // Crud - CREATE model.create / http-post
 // SIGN-UP
-router.post('/signup', async (req, res) => {
+// Por motivo de sigilo comercial, apenas o administrador pode criar contas para novos usuários
+router.post('/signup', isAuthenticated, isAdmin, async (req, res) => {
   try {
     // Extrai o password do body da requisição
     const { password } = req.body
