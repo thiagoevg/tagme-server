@@ -7,6 +7,7 @@ const uploadCloud = require('../config/cloudinary.config')
 
 
 // Faz o upload de imagem no cloudinary
+// Prepara o servidor para fazer o upload de imagens oriundas do front
 router.post('/image-upload', isAuthenticated, isAdmin, uploadCloud.single('image'), (req, res) => {
   if (!req.file) {
     return res.status(500).json({ msg: 'File upload failed.' })
