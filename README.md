@@ -13,7 +13,7 @@ https://coco-bambu.netlify.app/
 
 ## Login
 
-**Para acessar o aplicativo através do deploy é necessário logar com um dos usuários cadastrados:**\
+**Para acessar o aplicativo através do deploy é necessário logar com um dos usuários cadastrados:**
 
 **Fogaça** (administrador)\
 Login: fogaça\
@@ -40,7 +40,7 @@ Senha: Senha@Segura123
 **express-jwt:** Utilizada para a verificação do token do usuário no acesso de rotas protegidas (isAuthenticated middleware).\
 **cloudinary:** Pacote utilizado para o upload de images.\
 **multer:** Possibilita que o banco receba um arquivo do tipo file durante o processo de upload de imagem.\
-**multer-storage-cloudinary:** Estabelece a conexão entre o cloudinary e o multer.\
+**multer-storage-cloudinary:** Estabelece a conexão entre o cloudinary e o multer.
 
 ### Segurança
 
@@ -72,7 +72,7 @@ Apesar de não serem utilizadas explicitamente nessa aplicação, a API também 
 **react-router-dom:** Permite a criação das rotas do react, definindo quais componentes serão renderizados com base no url.\
 **react-scripts:** Pacote com conjunto de scripts para a configuração base do React.\
 **bootstrap:** Biblioteca de estilos CSS utilizada como suporte adicional para criação dos estilos da página.\
-**react-bootstrap:** Biblioteca de componentes com estilo bootstrap adaptados ao React.\
+**react-bootstrap:** Biblioteca de componentes com estilo bootstrap adaptados ao React.
 
 ### Segurança
 
